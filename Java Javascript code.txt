@@ -1,0 +1,28 @@
+//JavaScript Code
+Create a Javascript program that accepts a user name and displays hello with username in the alert box. 
+
+let userName = prompt("Enter your name:");
+alert("Hello"+userName);
+
+// Java Code 
+
+
+
+class PrimeNumber {
+    public static void main(String[] args) {
+        int a = 0
+        Scanner sc = new Scanner(System.in)
+        int num = sc.nextInt();
+        for(int i =2 ; i< num; i++){
+            if(num%i==0)
+            {
+                a=1
+            }
+            if(a==0){
+                System.out.println("Entered number is Prime Number")
+            }
+             else{
+                System.out.println("Entered number is not a Prime Number")
+            }
+        }
+    }
